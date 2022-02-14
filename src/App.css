@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+
+/*homepage*/
+
+header{
+
+  background: url("image/hom.jpg");
+  height: 93.2vh;
+  background-size: cover;
+  -webkit-background-size:cover;
+  position: relative;
+  background-position: center center;
+
+}
+
+.banner-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+
+}
+
+.banner-text p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 30px;
+}
+
+.group-text h1{
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+
+}
+
+.group-text h1:hover{
+  color: #000;
+  box-shadow: 0px 10px 50px -10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0px 10px 50px -10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0px 10px 50px -10px rgba(0,0,0,0.9);
+}
+
+.banner-text p:hover{
+  color: rgb(248, 232, 6);
+  box-shadow: 0px 10px 50px -10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0px 10px 50px -10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0px 10px 50px -10px rgba(0,0,0,0.9);
+}
+/* Signup*/
+
+main{
+  background: url(image/h12.jfif);
+  height: 110ch;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cont1{
+  position: absolute;
+  max-width: 800px;
+  left: 50%;
+  text-align: center;
+  justify-content: center;
+  transform: translate(-50%,10%);
+  box-shadow: 0px 10px 50px -10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0px 10px 50px -10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0px 10px 50px -10px rgba(0,0,0,0.9);
+  background-image: linear-gradient(to left, #f73ced, #c452f5, #42afe2cc, #27cfe5);
+
+}
+
+.LeftCon{
+  position: relative;
+  border-radius: 25px;
+  height: 100%;
+  padding: 25px;
+  padding-left: 50px;
+
+}
+
+.LeftCon h1{
+
+  color:rgb(13, 10, 15);
+  font-size: 35px;
+  font-weight: 600;
+  
+
+
+}
+
+.RightCon{
+  position: relative;
+  border: none;
+  padding: 50px;
+  height: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.Signup-cont{
+  position: relative;
+  box-shadow:  0px 10px 40px -10px rgba(0,0,0,0.7);
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to left, #f73ced, #c452f5, #42afe2cc, #27cfe5);
+  text-align: center;
+  justify-content: center;
+  background-color:white;
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+
+}
+
+.LeftCon .text-Box{
+  width: 230px;
+  border: none;
+  border-radius:  15px ;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 1%;
+  font-weight: 490;
+  box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+   
+}
+
+.LeftCon .stylebtn{
+  background-image: linear-gradient(to left, #9613d3, #9e18d8, #a61edc, #ae22e1, #b627e5);
+  color: #fff;
+  width: 130px;
+  border: none;
+  margin-top: 5%;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+.header{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+   color: rgb(26, 24, 24);
+   
+}
+
+.RightCon img{
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 19%;
+  justify-content: center;
+ padding: 30px;
+ box-shadow: 0px 10px 40px -10px rgba(238, 232, 232, 0.973);
+ -webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+ -moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.2);
+}
+
+.LeftCon .stylebtn:hover{
+  background-image: linear-gradient( #2265e1, #a27aec);
+
+}
+
+.LeftCon .text-Box:focus{
+  outline: none;
+}
+
+.SignupForm{
+  position: relative;
+  margin-top: 50px;
+}
+
+
+
+
+
+/*login*/
+
+
+.cont_lo{
+  margin-top: 15%;
+}
+.LoginCon{
+  position: relative;
+  box-shadow:  0px 10px 40px -10px rgba(0,0,0,0.7);
+  text-align: center;
+  margin-top: 8%;
+  justify-content: center;
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+
+
+.leftDiv{
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  
+
+}
+
+.leftDiv h1{
+
+  color:rgb(13, 10, 15);
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 12%;
+
+}
+
+
+
+.leftDiv .input-Box{
+  width: 63%;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 1%;
+  font-size: 15px;
+  font-weight: 490;
+  box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+
+.leftDiv .input-Box:focus{
+  outline: none;
+}
+.leftDiv .loginbtn{
+  background-image: linear-gradient(to left, #9613d3, #9e18d8, #a61edc, #ae22e1, #b627e5);
+  color: #fff;
+  width: 180px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 5%;
+  padding: 10px;
+  box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.1);
+}
+
+
+.leftDiv .Box{
+  font-size: 18px;
+  color: black;
+  outline: none;
+}
+
+.leftDiv .Box:hover{
+  background-image: linear-gradient( #b3adb4, #efe9f1);
+}
+
+.leftDiv .loginbtn:hover{
+  background-image: linear-gradient( #e18ff0, #2cf6fd);
+  color: black;
+
+}
+
+
+.Loginform{
+  position: relative;
+  margin-top: 20%; 
+}
+
+
+.RightDiv{
+  position: relative;
+  border: none;
+  padding: 50px;
+  height: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.RightDiv img{
+  border: none;
+  border-radius: 350px;
+  text-align: center;
+  justify-content: center;
+ padding: 10px;
+ box-shadow: 0px 10px 40px -10px rgba(238, 232, 232, 0.973);
+
+}
+
+/*About*/
+
+
+.header2{
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.contrn{
+  margin-right: 10%;
+}
+.con4{
+  width:100%;
+  height: auto;
+  background-image: linear-gradient( #e18ff0, #2cf6fd);
+
+  margin-top: 10%;
+  box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+
+.lefty img{
+  height: 50vh;
+  width: 35vh;
+}
